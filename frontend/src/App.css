@@ -74,6 +74,7 @@ p {
 
 .authPage {
   display: flex;
+  justify-content: center;
   min-width: 1500px;
   max-width: 1500px;
   margin: 0 auto;
@@ -82,9 +83,14 @@ p {
 .authPage .container {
   flex: 1;
   display: flex;
+  max-width: 500px;
+  max-width: 60vh;
+
+  background-color: #9980FA;
   flex-direction: column;
   justify-content: center;
-  background: #fff;
+  align-items: center;
+
   padding: 20px 20px;
 }
 .authPage .container .header {
